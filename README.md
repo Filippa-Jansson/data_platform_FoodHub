@@ -16,6 +16,17 @@ Save money, cut waste, and satisfy your cravings – zero planning required.*
 * **Search Statistics:** Tracks and visualizes the most popular ingredient searches using Matplotlib.
 * **Frontend:** A lightweight web interface for searching recipes and viewing history and search statistic.
 
+## 👩‍💻 My Contribution
+
+This was a group project with five developers around 4 weeks run in sprints with a backlog in GitHub Projects. We rotated the roles of Scrum Master and Product Owner within the team.
+
+My main contributions:
+
+- **Search statistics (#48):** created the `search_log` table, logged every search query from the `/recipes/search` endpoint, and built the `/recipes/popular-searches` endpoint that returns the 10 most searched ingredients using SQL aggregation. The visualization with Matplotlib was built together with Lisa.
+- **Sprint demos:** created the presentations for the Sprint 1 and Sprint 2 demos and the final presentation.
+
+Some work was done in pair programming, so not all of it is committed under my name. The sprint activity logs in [`docs/`](docs) show who worked on what.
+
 ## 📂 Project Structure
 The project is organized into a modular directory structure to ensure a clean separation of concerns between the API, data processing, and infrastructure.
 
